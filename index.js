@@ -29,7 +29,7 @@ app.use(bodyParser.json());
 const admin = require("firebase-admin");
 
 // Firebase Admin SDK
-const serviceAccount = require("./firebase/chat-app-75176-firebase-adminsdk-uwmy5-fbe52606fe.json"); // Replace with the actual path to your service account credentials file
+const serviceAccount = require("./firebase/realtime-chat-36fa1-firebase-adminsdk-fbsvc-8d49e9b245"); // Replace with the actual path to your service account credentials file
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
 });
